@@ -1,4 +1,10 @@
-body{
+body * {
+    font-family: 'Inter', sans-serif;
+    color: white;
+
+}
+
+body {
     background-image: url(/assets/bg-mobile.jpg);
     background-repeat: no-repeat;
     background-position: top center;
@@ -10,6 +16,10 @@ body{
     width: 360px;
     border: 1px solid red;
     margin: auto;
+}
+
+#profile {
+    text-align: center;
 }
 
 #profile img {
